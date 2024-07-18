@@ -2,13 +2,15 @@
   padding-top: 4em;
   display: flex;
 }
+
 .viewParentDiv .imageShowDiv {
   padding: 16px;
   width: 70vw;
 }
+
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
-  height: 85vh;
+  max-width: 100%;
+  height: auto;
 }
 
 .viewParentDiv .rightSection {
@@ -48,3 +50,5 @@
   font-weight: 400;
   padding: 0;
 }
+
+
